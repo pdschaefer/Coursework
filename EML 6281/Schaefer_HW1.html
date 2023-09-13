@@ -17839,6 +17839,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">math</span> <span class="k">as</span> <span class="nn">m</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">color</span> <span class="o">=</span><span class="s1">&#39;</span><span class="se">\033</span><span class="s1">[97m&#39;</span>
 </pre></div>
 
      </div>
@@ -17892,7 +17893,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
                     <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">DB_T</span><span class="p">)</span>
                 <span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Transforming from D to C </span><span class="se">\n</span><span class="s2"> </span><span class="si">{</span><span class="n">CD_T</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">color</span><span class="si">}</span><span class="s2">Transforming from D to C </span><span class="se">\n</span><span class="s2"> </span><span class="si">{</span><span class="n">CD_T</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17914,12 +17915,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Transforming from D to C 
+<pre><span class="ansi-white-intense-fg">Transforming from D to C 
  [[  0.61237244  -0.43559574   0.65973961  -7.89149131]
  [  0.61237244   0.78914913  -0.04736717 -20.13894002]
  [ -0.5          0.4330127    0.75        15.66987298]
  [  0.           0.           0.           1.        ]]
-</pre>
+</span></pre>
 </div>
 </div>
 
@@ -17966,7 +17967,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
                     <span class="n">D_p1</span>
                 <span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;P1 in A:</span><span class="se">\n</span><span class="si">{</span><span class="n">A_p1</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">P1 in B:</span><span class="se">\n</span><span class="si">{</span><span class="n">B_p1</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">P1 in C:</span><span class="se">\n</span><span class="si">{</span><span class="n">C_p1</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">color</span><span class="si">}</span><span class="s2">P1 in A:</span><span class="se">\n</span><span class="si">{</span><span class="n">A_p1</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">P1 in B:</span><span class="se">\n</span><span class="si">{</span><span class="n">B_p1</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">P1 in C:</span><span class="se">\n</span><span class="si">{</span><span class="n">C_p1</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17988,7 +17989,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>P1 in A:
+<pre><span class="ansi-white-intense-fg">P1 in A:
 [[-7.83493649]
  [37.14101615]
  [13.57050808]
@@ -18005,7 +18006,7 @@ P1 in C:
  [-31.8028011 ]
  [ -3.57050808]
  [  1.        ]]
-</pre>
+</span></pre>
 </div>
 </div>
 
@@ -18069,7 +18070,7 @@ P1 in C:
                     <span class="n">DB_T</span>
                 <span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Transform from A to B:</span><span class="se">\n</span><span class="si">{</span><span class="n">AB_T</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">color</span><span class="si">}</span><span class="s2">Transform from A to B:</span><span class="se">\n</span><span class="si">{</span><span class="n">AB_T</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18091,12 +18092,12 @@ P1 in C:
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Transform from A to B:
+<pre><span class="ansi-white-intense-fg">Transform from A to B:
 [[ 0.52898551 -0.67182943  0.5184781   5.13731742]
  [ 0.78777146  0.61594203 -0.00561586 -0.83831423]
  [-0.31557955  0.41141296  0.85507246 -0.98876827]
  [ 0.          0.          0.          1.        ]]
-</pre>
+</span></pre>
 </div>
 </div>
 
@@ -18175,7 +18176,7 @@ P1 in C:
                     <span class="n">AC_T</span>
                 <span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;A to B:</span><span class="se">\n</span><span class="si">{</span><span class="n">AB_T</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">color</span><span class="si">}</span><span class="s2">A to B:</span><span class="se">\n</span><span class="si">{</span><span class="n">AB_T</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;A to C:</span><span class="se">\n</span><span class="si">{</span><span class="n">AC_T</span><span class="si">}</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;B to C:</span><span class="se">\n</span><span class="si">{</span><span class="n">BC_T</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
@@ -18199,11 +18200,13 @@ P1 in C:
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>A to B:
+<pre><span class="ansi-white-intense-fg">A to B:
 [[ 1.          0.          0.          0.        ]
  [ 0.          0.8660254  -0.5         7.67949192]
  [ 0.          0.5         0.8660254  -8.66025404]
  [ 0.          0.          0.          1.        ]]
+
+
 A to C:
 [[ 0.53571429 -0.6229365   0.57005291  0.        ]
  [ 0.76579365  0.64285714 -0.01716931  0.        ]
@@ -18216,7 +18219,7 @@ B to C:
  [ 0.48531316  0.77960099  0.39584523 -2.32050808]
  [-0.69100025  0.06459423  0.71996267 11.33974596]
  [ 0.          0.          0.          1.        ]]
-</pre>
+</span></pre>
 </div>
 </div>
 
